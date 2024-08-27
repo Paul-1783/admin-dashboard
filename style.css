@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.dashboard {
+    background-color: rgb(0, 162, 255);
+    font-weight: bold;
+    padding-left: 8rem;
+    color: white;
+    font-size: 17px;
+    position: relative;
+}
+
+.dashboard img {
+    position: relative;
+    top: -1.6rem;
+    left: -2.5rem;
+    width: 2em;
+    display: inline-block;
+}
+
+.title img {
+    position: relative;
+    top: -2.4rem;
+    left: -3.5rem;
+}
+
+.dashboard p {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    margin-top: 2rem;
+    font-size: 25px;
+    font-weight: inherit;
+}
+
+#setting-dis {
+    margin-top: 3rem;
+}
+
+.interactive {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 5fr;
+}
+
+.search {
+    grid-area: 1/1/2/3;
+    box-shadow: 0px 5px 5px 0 rgb(0, 0, 0, 0.2);
+}
+
+.projects {
+    width: 100%;
+    margin-top: 0.3rem;
+    background-color: rgba(233, 239, 241, 0.979);
+}
