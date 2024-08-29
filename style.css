@@ -176,6 +176,7 @@ body {
 
 .share {
     grid-column: 6/7;
+    margin-right: 4rem;
 }
 
 .projects {
