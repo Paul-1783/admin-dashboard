@@ -146,14 +146,13 @@ body {
 .name {
     grid-column: 2/3;
     min-width: 250px;
-    position: relative;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
 }
 
 .set_phrase {
     font-size: 12px;
-    position: relative;
-    left: -190px;
-    bottom: 25px;
+    grid-row: 1/2;
 }
 
 
